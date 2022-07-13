@@ -1,0 +1,63 @@
+{
+  "name": "create-siesta",
+  "version": "0.1",
+  "type": "module",
+  "scripts": {
+    "create-siesta": "create-siesta",
+    "release": "standard-version",
+    "release:patch": "standard-version --release-as patch && npm run postversion",
+    "release:minor": "standard-version --release-as minor && npm run postversion",
+    "release:major": "standard-version --release-as major && npm run postversion",
+    "postversion": "git push && git push --tags"
+  },
+  "bin": "bin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coon-js/create-siesta.git"
+  },
+  "keywords": [
+    "siesta",
+    "bryntum",
+    "extjs",
+    "tests",
+    "ui",
+    "tests",
+    "sencha",
+    "coon.js",
+    "coon-js",
+    "l8.js",
+    "l8js",
+    "l8",
+    "javascript",
+    "testing"
+  ],
+  "author": "Thorsten Suckow-Homberg <thorsten@suckow-homberg.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coon-js/create-siesta/issues"
+  },
+  "homepage": "https://github.com/coon-js/create-siesta#readme",
+  "dependencies": {
+    "@docusaurus/logger": "^2.0.0-beta.21",
+    "@l8js/l8": "^0.7.4",
+    "boxen": "^6.2.1",
+    "commander": "^9.3.0",
+    "fs-extra": "^10.1.0",
+    "module": "^1.2.5",
+    "prompts": "^2.4.2",
+    "semver": "^7.3.7",
+    "shelljs": "^0.8.5",
+    "supports-color": "^9.2.2",
+    "url": "^0.11.0"
+   },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "node-git-hooks": "^1.0.6",
+    "@commitlint/cli": "^13.2.0",
+    "@commitlint/config-conventional": "^13.2.0",
+    "standard-version": "^9.3.1"
+  },
+  "engines": {
+    "node": ">=16.14"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "css": {
+        "modern": "../build/extjs-build/extjs/modern/themes/triton/resources/triton-all.css",
+        "classic": "../build/extjs-build/extjs/classic/themes/triton/resources/triton-all.css"
+    },
+    "js": [{
+        "classic": [
+            "../build/extjs-build/extjs/classic/ext-all-debug.css",
+            "../build/extjs-build/extjs/packages/ux/classic/ux-debug.js"
+        ],
+        "modern": [
+            "../build/extjs-build/extjs/modern/ext-modern-all-debug.css",
+            "../build/extjs-build/extjs/packages/ux/modern/ux-debug.js"
+        ]
+    }]
+}
