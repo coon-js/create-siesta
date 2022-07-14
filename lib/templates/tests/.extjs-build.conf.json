@@ -1,15 +1,15 @@
 {
     "css": {
-        "modern": "../${autoBuild}/modern/themes/triton/resources/triton-all.css",
-        "classic": "../${autoBuild}/classic/themes/triton/resources/triton-all.css"
+        "modern": "../${autoBuild}/modern/themes/triton/triton-all.css",
+        "classic": "../${autoBuild}/classic/themes/triton/triton-all.css"
     },
     "js": [{
         "classic": [
-            "../${autoBuild}/classic/ext-all-debug.css",
+            "../${autoBuild}/classic/ext-all-debug.js",
             "../${autoBuild}/packages/ux/classic/ux-debug.js"
         ],
         "modern": [
-            "../${autoBuild}/modern/ext-modern-all-debug.css",
+            "../${autoBuild}/modern/ext-modern-all-debug.js",
             "../${autoBuild}/packages/ux/modern/ux-debug.js"
         ]
     }]
