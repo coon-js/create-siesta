@@ -69,20 +69,21 @@ console.log(boxen(logger.interpolate`
              ---\`-'    \`----'                       \`--\`---'     
 
          name=${`siesta`} scaffolding for name=${`Ext JS`}             name=${`create-siesta@${v}`}                      
-                           url=${`https://conjoon.org`}
-                  siesta (c) url=${`https://bryntum.com`} 
+                             url=${`https://conjoon.org`}
+                   siesta (c) url=${`https://bryntum.com`} 
 `, {
     padding: 1,
     margin: 1,
     align: 'center',
-    borderColor: 'yellow',
-    borderStyle: 'round'
+    borderColor: 'green',
+    borderStyle: 'doubleSingle'
 }));
 
 program
     .name("create-siesta")
-    .action(function() {
-        initializer()
+    .option("-f, --force", "forces package installation")
+    .action(function(options) {
+        initializer(options)
     });
 
 program.parse(process.argv);
