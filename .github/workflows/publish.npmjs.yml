@@ -17,15 +17,15 @@ jobs:
         with:
           node-version: 16
           registry-url: "https://registry.npmjs.org"
-      - name: publish @conjoon/create-conjoon
+      - name: publish @coon-js/create-siesta
         run: |
           npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
-      - name: publish create-conjoon
+      - name: publish create-siesta
         run: |
           npm i -g change-package-name
-          npx change-package-name create-conjoon
+          npx change-package-name create-siesta
           npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
