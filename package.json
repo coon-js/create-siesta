@@ -10,7 +10,7 @@
     "release:major": "standard-version --release-as major && npm run postversion",
     "postversion": "git push && git push --tags"
   },
-  "bin": "bin/index.js",
+  "bin": "bin/bin.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coon-js/create-siesta.git"
