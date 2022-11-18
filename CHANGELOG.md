@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/coon-js/create-siesta/compare/v0.2.0...v0.3.0) (2022-11-18)
+
+
+### Features
+
+* add option to skip installation of default test-environment ([9ed3b04](https://github.com/coon-js/create-siesta/commit/9ed3b049657441ef826e88360f016e785c54bbcf))
+
 ## [0.2.0](https://github.com/coon-js/create-siesta/compare/v0.1.4...v0.2.0) (2022-07-14)
 
 ### [0.1.4](https://github.com/coon-js/create-siesta/compare/v0.1.3...v0.1.4) (2022-07-14)
